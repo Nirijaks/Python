@@ -1,0 +1,126 @@
+*******************************************
+     Factorial
+*******************************************
+# Hello World program in Python
+    
+print("Hello World!\n")
+fact=1;
+number=int(input("Enter the number : "))
+
+if number<0:
+ print("No factorial for negative numbers!!!")
+elif number==0:
+ print("The factorial of 0 is 1")
+else:
+  for i in range(1,number+1):
+   fact=fact*i;
+print("Factorial of the number",number)
+print(fact)
+
+*******************************************
+     Perfect Square
+*******************************************
+import math
+
+print("Perfect Square!!!")
+
+try:
+    
+   n=int(input("Enter the number : "))
+    
+   flag=math.sqrt(n)
+    
+   if(n!=flag*flag):
+       
+      raise ValueError("That is not a perfect square number!!!")
+    
+
+except ValueError as e:
+     
+      print(e) 
+
+
+else:
+    
+      # TODO: write code...
+    
+      print("Number is perfect square")
+
+finally:
+    
+      # TODO: write code...
+    
+      print("Task completed!!!")
+
+   
+ 
+
+    
+  
+*******************************************
+     Bubble Sort
+*******************************************
+ 
+def bubbleSort(arr):
+    n = len(arr)
+
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1] :
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+ 
+
+arr = [64, 34, 25, 12, 22, 11, 90]
+ 
+bubbleSort(arr)
+ 
+print ("Sorted array is:")
+for i in range(len(arr)):
+    print ("%d" %arr[i]), 
+
+********************************************
+    Input Validator
+********************************************
+import re
+
+
+def validateEmail(email):
+
+	if len(email) > 7:
+		if re.match("^.+\\@(\\[?)[a-zA-Z0-9\\-\\.]+\\.([a-zA-Z]{2,3}|[0-9]{1,3})(\\]?)$", email) != None:
+			return 1
+	return 0
+	
+def validateIpAddress(ipaddress):
+    if len(ipaddress) > 8:
+        pat = re.compile("\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}")
+        test = pat.match(ipaddress)
+        if test:
+         return 1
+        else:
+         return 0
+    return 0
+
+email=input("Enter EmailId : ")
+if validateEmail(email) == 1:
+    print("Valid Email")
+else:
+    print("Invalid Email")
+    
+ipaddress=input("Enter The IpAddress : ")
+if validateIpAddress(ipaddress) == 1:
+    print("Valid IpAddress!!!")
+else:
+    print("Invalid IpAddress!!!")
+
+
+    
+ 
+
+
+
+
+ 
+
+  
+     
