@@ -100,6 +100,16 @@ def validateIpAddress(ipaddress):
         else:
          return 0
     return 0
+    
+def validateMobileNumber(number):
+  if len(number)==10:
+      pat=re.compile("(0/91)?[7-9][0-9]{9}")
+      test=pat.match(number)
+      if test:
+          return 1
+      else:
+          return 0
+  return 0
 
 email=input("Enter EmailId : ")
 if validateEmail(email) == 1:
@@ -112,12 +122,70 @@ if validateIpAddress(ipaddress) == 1:
     print("Valid IpAddress!!!")
 else:
     print("Invalid IpAddress!!!")
-
-
     
+number=input("Enter mobile number : ")
+if validateMobileNumber(number) == 1:
+    print("Valid mobile number!!!")
+else:
+    print("Invalid mobile number!!!")
+
+************************************************
+        Odd and Even list
+************************************************
+def oddEvenList(a,b):
+  
+ odd_list=[]
+  
+ even_list=[]
+ 
+  
+ for i in range(a,b):
+    
+   if i%2 == 0:
+      
+     even_list.append(i)
+              
+   
+   else:
+       
+     odd_list.append(i)
+              
+  
+ print("Even number list : ",even_list)
+  
+ print("Odd number list : ",odd_list)
  
 
 
+
+print("Enter two numbers : ")
+
+a=int(input())
+
+b=int(input())
+
+oddEvenList(a,b)
+
+*************************************************
+     Dictionary
+*************************************************
+def dictionary(n):
+  
+  
+ if n>0:
+    
+   mydictionary = {x: x*x*x for x in range(n)}
+  
+ print(mydictionary)
+       
+
+
+n=int(input("Enter the number : "))
+
+dictionary(n)
+
+
+***********************************COMPLETED**************************************************
 
 
  
