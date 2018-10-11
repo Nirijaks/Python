@@ -1,0 +1,27 @@
+Started by user [8mha:////4Gu9k+r28+49yL8bBPmm/ZnJXqoOEc9jsiZFosEu+VixAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mNirija
+Building in workspace C:\Scala_sbt
+[Demo6] $ cmd.exe /C " java -Dsbt.log.noformat=true -jar "C:\Program Files (x86)\sbt\bin\sbt-launch.jar" clean compile test "
+[info] Loading project definition from C:\Scala_sbt\Demo6\project
+[info] Updating ProjectRef(uri("file:/C:/Scala_sbt/Demo6/project/"), "demo6-build")...
+[info] Done updating.
+[info] Loading settings for project demo6 from build.sbt ...
+[info] Set current project to Demo6 (in build file:/C:/Scala_sbt/Demo6/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[success] Total time: 0 s, completed Oct 11, 2018 4:39:09 PM
+[info] Updating ...
+[info] Done updating.
+[info] Compiling 1 Scala source to C:\Scala_sbt\Demo6\target\scala-2.12\classes ...
+[info] Done compiling.
+[success] Total time: 10 s, completed Oct 11, 2018 4:39:19 PM
+[info] Compiling 1 Scala source to C:\Scala_sbt\Demo6\target\scala-2.12\test-classes ...
+[info] Done compiling.
+[info] AddCalculatorTest:
+[info] - AddCalculator.addInt
+[info] Run completed in 686 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed Oct 11, 2018 4:39:24 PM
+Build step 'Build using sbt' changed build result to SUCCESS
+Finished: SUCCESS

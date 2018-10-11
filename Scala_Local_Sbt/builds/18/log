@@ -1,0 +1,11 @@
+Started by user [8mha:////4Gu9k+r28+49yL8bBPmm/ZnJXqoOEc9jsiZFosEu+VixAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mNirija
+Building in workspace C:\Scala_sbt
+[Scala_sbt] $ cmd /c call C:\windows\TEMP\jenkins2103371155228387890.bat
+
+C:\Scala_sbt>C:\Users\nirija.somanathan\Demo6
+'C:\Users\nirija.somanathan\Demo6' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Scala_sbt>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

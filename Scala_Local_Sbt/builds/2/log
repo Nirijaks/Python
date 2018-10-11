@@ -1,0 +1,22 @@
+Started by user [8mha:////4Gu9k+r28+49yL8bBPmm/ZnJXqoOEc9jsiZFosEu+VixAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mNirija
+Building in workspace C:\Scala_sbt
+[Scala_sbt] $ cmd /c call C:\windows\TEMP\jenkins2231276013017112537.bat
+
+C:\Scala_sbt>cd C:\Users\nirija.somanathan\Demo6 
+
+C:\Users\nirija.somanathan\Demo6>sbt  
+[info] Loading project definition from C:\Users\nirija.somanathan\Demo6\project
+[info] Loading settings for project demo6 from build.sbt ...
+[info] Set current project to Demo6 (in build file:/C:/Users/nirija.somanathan/Demo6/)
+[error] server failed to start on local:sbt-server-f9966ce9501291718631. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-f9966ce9501291718631_lock, error 231
+sbt:Demo6> Build was aborted
+FATAL: null
+java.lang.NullPointerException
+	at hudson.tasks.BuildTrigger.execute(BuildTrigger.java:258)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.cleanUp(AbstractBuild.java:651)
+	at hudson.model.Build$BuildExecution.cleanUp(Build.java:201)
+	at hudson.model.Run.execute(Run.java:1862)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Finished: ABORTED

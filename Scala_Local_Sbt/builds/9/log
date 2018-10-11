@@ -1,0 +1,10 @@
+Started by user [8mha:////4Gu9k+r28+49yL8bBPmm/ZnJXqoOEc9jsiZFosEu+VixAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mNirija
+Building in workspace C:\Scala_sbt
+[Scala_sbt] $ cmd /c call C:\windows\TEMP\jenkins4158247964280795463.bat
+
+C:\Scala_sbt>cd C:\Program Files (x86)\Demo6 
+
+C:\Program Files (x86)\Demo6>sbt
+\Demo6 was unexpected at this time.
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

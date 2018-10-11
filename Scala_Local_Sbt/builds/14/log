@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4N4ujgsZFiO7inYICJklvN7RlFcKblaKilXpIEJb0a4rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3g5MScxHiffCClDwCj6NBNxgAAAA==[0mScala_Local" build number [8mha:////4Iozg2jLamdzwZeomHxZm28ryAiTfhwdVIHZDNFBSntRAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6wcmJOYnxPvlASt8IAJ71AmHHAAAA[0m2
+originally caused by:
+ Started by user [8mha:////4Gu9k+r28+49yL8bBPmm/ZnJXqoOEc9jsiZFosEu+VixAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mNirija
+Building in workspace C:\Scala_sbt
+[Scala_sbt] $ cmd.exe /C " java C:\Program Files (x86)\sbt\bin\sbt-launch.jar -Dsbt.log.noformat=true -jar "C:\Program Files (x86)\Jenkins\tools\org.jvnet.hudson.plugins.SbtPluginBuilder_SbtInstallation\1.2.4\bin\sbt-launch.jar" clean compile test "
+Error: Could not find or load main class C:\Program
+Build step 'Build using sbt' changed build result to FAILURE
+Build step 'Build using sbt' marked build as failure
+Finished: FAILURE
